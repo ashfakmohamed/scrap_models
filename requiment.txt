@@ -10,3 +10,6 @@ After downloading, place the executable in a directory that is included in your 
 
 # Change this path to your chromedriver location
 webdriver_service = Service("C:/Program Files/chromedriver.exe")
+
+# File Package for selenium
+"https://googlechromelabs.github.io/chrome-for-testing/#stable"
