@@ -1,0 +1,12 @@
+pip install beautifulsoup4
+pip install pandas
+pip install selenium
+
+WebDriver: Selenium requires a WebDriver to interface with the chosen browser. For instance, if you are using Chrome, you need the ChromeDriver.
+
+Download ChromeDriver
+Make sure the ChromeDriver version matches your Chrome browser version.
+After downloading, place the executable in a directory that is included in your system's PATH.
+
+# Change this path to your chromedriver location
+webdriver_service = Service("C:/Program Files/chromedriver.exe")
